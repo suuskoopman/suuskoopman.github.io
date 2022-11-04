@@ -27,3 +27,8 @@ li a {
 li a:hover {
   background-color: #111;
 }
+
+/* unvisited link */
+a:link{
+  color: rgba(234, 0, 255, 0.395);
+}
