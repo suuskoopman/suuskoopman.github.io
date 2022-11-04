@@ -30,7 +30,7 @@ li a:hover {
 
 /* unvisited link */
 a:link{
-  color: rgba(116, 43, 176, 0.911);
+  color: rgba(242, 33, 186, 0.911);
 }
 
 img{
@@ -42,7 +42,7 @@ img{
 }
 
 footer{
-  text-align: center;
+  text-align: center; 
   padding: 3px;
   background-color: blue;
   color: white;
