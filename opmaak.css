@@ -30,5 +30,5 @@ li a:hover {
 
 /* unvisited link */
 a:link{
-  color: rgb(140, 0, 255);
+  color: rgba(116, 43, 176, 0.911);
 }
