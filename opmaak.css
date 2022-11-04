@@ -30,7 +30,7 @@ li a:hover {
 
 /* unvisited link */
 a:link{
-  color: rgba(236, 1, 248, 0.438); /* kleur van de link*/
+  color: blue; /* kleur van de link*/
 }
 
 img{
