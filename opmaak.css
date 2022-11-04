@@ -3,20 +3,40 @@
 
 }
 
+#kop1{
+  color: rgb(9, 113, 250, 0.025);
+}
+
 #body2{
   background-color: rgba(0, 0, 255, 0.11);
+}
+
+#kop2{
+  color: rgb(0, 0, 255, 0.11);
 }
 
 #body3{
   background-color: rgba(0, 0, 255, 0.26);
 }
 
+#kop3{
+  color: rgb(0, 0, 255, 0.26);
+}
+
 #body4{
   background-color: rgba(0, 0, 255, 0.4);
 }
 
+#kop4{
+  color: rgb(0, 0, 255, 0.4);
+}
+
 #body5{
   background-color: rgba(0, 0, 255, 0.468);
+}
+
+#kop5{
+  color: rgb(0, 0, 250, 0.468);
 }
 
 ul {
@@ -46,7 +66,7 @@ li a:hover {
 
 /* unvisited link */
 a:link{
-  color: rgba(236, 1, 248, 0.438);
+  color: rgba(236, 1, 248, 0.438); /* kleur van de link*/
 }
 
 img{
