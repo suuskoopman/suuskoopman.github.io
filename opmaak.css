@@ -32,3 +32,8 @@ li a:hover {
 a:link{
   color: rgba(116, 43, 176, 0.911);
 }
+
+img{
+  border-color: blue;
+  border-width: 5px;
+}
