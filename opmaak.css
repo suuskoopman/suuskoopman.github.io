@@ -1,6 +1,22 @@
-body {
-    background-color: rgba(9, 113, 250, 0.249); 
+#body1{
+    background-color: rgba(9, 113, 250, 0.025); 
 
+}
+
+#body2{
+  background-color: rgba(0, 0, 255, 0.11);
+}
+
+#body3{
+  background-color: rgba(0, 0, 255, 0.26);
+}
+
+#body4{
+  background-color: rgba(0, 0, 255, 0.4);
+}
+
+#body5{
+  background-color: rgba(0, 0, 255, 0.468);
 }
 
 ul {
@@ -49,5 +65,5 @@ footer{
 }
 
 h3{
-  text-shadow: 1px 0px blue;
+  text-shadow: 1px 0px blue; /*de eerste px gaat over hoever de schaduw naar links gaat en de tweede px gaat over hoe ver de schaduw naar beneden gaat*/
 }
