@@ -1,45 +1,35 @@
 <!DOCTYPE html> <!--dit is de homepage van mijn site-->
 <html> <!--dit is het html-element-->
-   
-    <!--head staat voor een collectie van metadata voor het document-->
     <head>
-        <title>Het eerste begin</title>
-        <link rel="stylesheet" href="opmaak.css">
+        <title>Informatica</title>
+        <link rel="stylesheet" type="text/css" href="opmaak.css"> <!--zorgt ervoor dat de opmaak van css ook op deze site komt-->
         <meta charset="utf-8">
     </head>
 
-<!--body staat voor de content van het document*/-->
 <body>
+<div class ="topnav">
+    
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="binairstelsel.html">Binaire stelsel</a></li>
+        <li><a href="kleurmodellen.html">kleurmodellen</a></li>
+        <li><a href="bestandsformaten.html">Bestandsformaten></li>
+        <li><a href="compressie.html">Compressie</a></li>
+       
+    <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">3-lagenmodel</a>
+        <div class= "dropdown-content">
 
-    <!--op deze manier worden alle documenten verbonden, ook onstaat met deze code een dropdownmenu. -->
-    <div class ="topnav">
-    	<ul>
-			<li><a href="home.html">Home</a></li>
-            <li><a href="index.html">Home</a></li>
-			<li><a href="binairstelsel.html">Binaire stelsel</a></li>
-			<li><a href="kleurmodellen.html">Kleurmodellen</a></li>
-			<li><a href="bestandsformaten.html">Bestandsformaten</a></li>
-            <li><a href="compressie.html">Compressie </a></li>
-            
-            <li class="dropdown">
-            	<a href="javascript:void(0)" class="dropbtn">3-lagenmodel</a>
-                <div class= "dropdown-content">
-					<a href="3lagenmodel.html">3-lagenmodel </a>
-               		<a href="fysieke.html">fysiekelaag </a>
-					<a href="logischelaag.html">logischelaag </a>
-					<a href="toepassingslaag.html">toepassingslaag </a>
-					<a href="moederbord.html">moederbord </a>
-                </div>   
-    	</ul>
-    </div>
+            <a href="drielagenmodel.html">3-lagenmodel</a>
+            <a href="fysiekelaag.html">Fysieke laag</a>
+            <a href="logischelaag.html">Logische laag</a>
+            <a href="toepassingslaag.html">Toepassingslaag</a>
+            <a href="moederbord.html">Moederbord</a>
 
-<!--titel, getal bepaald te grootte -->
-<h2> Informatica site </h2>
+        </div>    
+    </ul>
 
-<!--een footer bevat bijvoorbeeld de informatie wie de site gemaakt heeft-->
-<footer>
-    Deze site is gemaakt door Suus Koopman
-</footer>
+</div>
 
-</body>
-</html>
+    </ul> 
