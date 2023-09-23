@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(9, 113, 250, 0.249); 
+    background-color: darkseagreen;
 }
 
 
@@ -9,7 +9,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden; 
-    background-color: #333; 
+    background-color: beige;
 }
 
 li {
@@ -25,7 +25,7 @@ li a {
 }
 
 li a:hover {
-  background-color: #111;
+  background-color: #;
 }
 
 /* unvisited link */
