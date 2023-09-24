@@ -55,7 +55,7 @@ footer{
 }
 
 h3{
-  text-shadow: 1px 0px rgb(0, 151, 65); /*de eerste px gaat over hoever de schaduw naar links gaat en de tweede px gaat over hoe ver de schaduw naar beneden gaat*/
+  text-shadow: 1px 0px lightgoldenrodyellow; /*de eerste px gaat over hoever de schaduw naar links gaat en de tweede px gaat over hoe ver de schaduw naar beneden gaat*/
 }
 
 .dropdown{
