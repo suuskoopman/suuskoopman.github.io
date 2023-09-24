@@ -2,9 +2,12 @@ body{
     background-color: darkseagreen;
 }
 
+H2 {
+  text-align: left;
+  text-shadow: 2px 2px 3px lightgoldenrodyellow;
+}
 
 ul {
-
     list-style-type: none;
     margin: 0;
     padding: 0;
