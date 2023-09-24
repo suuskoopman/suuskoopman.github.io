@@ -1,22 +1,22 @@
 body{
-    background-color: darkseagreen;
+    background-color: darkseagreen; /*achetrgrond kleur body*/
 }
 
 H2 {
   text-align: left;
-  text-shadow: 2px 2px 3px lightgoldenrodyellow;
+  text-shadow: 2px 2px 3px lightgoldenrodyellow; /*titels links plaatsen met een witte schaduw*/
 }
 
-ul {
-    list-style-type: none;
+ul {/* Ul introduceert een ongeordende lijst, deze css gegevens zijn een onderdeel van de navigatiebalk*/
+    list-style-type: none;/*list-style-type: none;- Verwijdert de punten. Een navigatiebalk heeft namelijk geen lijstmarkeringen nodig. Standaardinstellingen van de browser instellen margin: 0;en verwijderen padding: 0;*/
     margin: 0;
     padding: 0;
-    overflow: hidden; 
+    overflow: hidden;  /*overflow: hidden; om alles dat langer of breder is dan aangegeven niet te tonen*/
     background-color: lightgoldenrodyellow; 
 }
 
 li {
-  float: left;
+  float: left; /*navigatiebalk horizontaal*/
 }
 
 li a {
@@ -36,14 +36,14 @@ a:link{
   color: lightgoldenrodyellow; /* kleur van de link*/
 }
 
-img{
+img{ /*bepaald de kleur en dikte rondom de afbeeldingen*/
   float:left;
   border-color: rgb(0, 151, 65);
   border-style: solid; 
   border-width: 5px;
 }
 
-footer{
+footer{ /* bepaald kleur en dikte enzo. voor de footer*/
   position: fixed;
   left: 0;
   bottom: 0;
@@ -57,7 +57,7 @@ h3{
   text-shadow: 1px 0px lightgoldenrodyellow; /*de eerste px gaat over hoever de schaduw naar links gaat en de tweede px gaat over hoe ver de schaduw naar beneden gaat*/
 }
 
-.dropdown{
+.dropdown{ /* met al het onderstaande wordt de opmaak van het dropdownmenu bepaald*/
   float: left;
   overflow: hidden;
 }
